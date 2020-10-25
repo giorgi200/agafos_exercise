@@ -1,0 +1,14 @@
+@mixin button {
+  padding-top: 2.3vh;
+  padding-bottom: 2.3vh;
+  background-color: $pale-grey;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+}
+
+@mixin active-button {
+  background-color: $blue;
+  color: #fff;
+}
